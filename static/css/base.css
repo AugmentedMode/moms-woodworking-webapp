@@ -1,0 +1,122 @@
+.avatar {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  border:1px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: disc;
+}
+
+body {
+  /* background-color: #0a192f; */
+  background-image: url("wood-background.jpg");
+}
+
+.background {
+  background-color: #172a45;
+}
+
+.boarder {
+  border-color: #64ffda;
+}
+
+.white {
+  color: #64ffda;
+}
+
+
+#content {
+  position: relative;
+}
+
+#content img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.zoom:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.home-hello {
+  margin-top: 150px;
+  color: #64ffda;
+  font-family: SFMono;
+}
+.home-name {
+  color:#e6f1ff;
+  font-family:Calibre-Semibold;
+  font-size:550%;
+  margin-top: 7%;
+}
+.home-intro {
+  color:#a8b2d1;
+  font-family:Calibre-Semibold;
+  font-size:400%;
+  margin-bottom: 25px;
+
+}
+.home-text {
+  color:#e6f1ff;
+  font-family:SFMono;
+  padding-bottom:2%;
+}
+.page-title {
+  color:#e6f1ff;
+  font-family:Calibre-Semibold;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.page-number {
+  font-family:SFMono;
+  color: #64ffda;
+  font-size:70%;
+}
+
+.about-text {
+  color:#a8b2d1;
+  font-family:SFMono;
+}
+
+.about-list {
+  color:#a8b2d1;
+  font-family:SFMono;
+  float: left;
+  width: 50%;
+}
+
+
+.job-position {
+  color:#ccd6f6;
+  font-family:Calibre-Semibold;
+  font-size:120%;
+}
+.job-name {
+  color: #64ffda;
+}
+.job-dates {
+  color:#8892b0;
+  font-family:SFMono;
+  font-size:90%;
+}
+.job-desc {
+  color:#a8b2d1;
+  font-family:SFMono;
+  font-size:90%;
+}
